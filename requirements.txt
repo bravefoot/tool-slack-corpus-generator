@@ -10,3 +10,4 @@ portalocker==1.6.0
 slackclient==2.5.0
 watchdog==0.10.2
 yarl==1.4.2
+pandas==1.0.3
