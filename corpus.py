@@ -68,8 +68,8 @@ def fetch_members(channel):
         ]
 
 
-with open(Path(__file__).parent / "skills.txt", "r") as skill_file:
-    with open("corpus.json", "w") as corpus_file:
+with open(Path(__file__).parent / "input" / "skills.txt", "r") as skill_file:
+    with open(Path(__file__).parent / "output" / corpus.json", "w") as corpus_file:
         corpus = build_corpus(
             skill_file.read().split("\n"),
             fetch_introductions(slack_channel),
